@@ -1,43 +1,92 @@
-<<<<<<< HEAD
-# React + Vite
+# 🌟 InspoSpace – Daily Motivation & Journaling App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **InspoSpace** – your personal space for daily inspiration, emotional tracking, and mindful journaling. Built with ❤️ using React!
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# 🌟 InspoSpace - Daily Motivation & Journal App
-
-InspoSpace is your personal space to find inspiration, track your mood, and journal your thoughts daily. Built with **React**.
+---
 
 ## ✨ Features
 
-- 💬 Daily motivational quotes (from API)
-- 😊 Mood Tracker with emoji reactions
-- 📝 Journal Prompt and Save Entries
-- 🌙 Dark Mode Toggle
-- 📤 Export & Share Journal
-- 📱 Mobile Responsive Design
-- 🎉 Animated Transitions
+* 🌞 **Inspirational Quotes** – Fresh motivational quotes every day from an API
+* 🌙 **Dark Mode Toggle** – Seamlessly switch between light & dark themes
+* 📓 **Journal Your Day** – Reflect and write your thoughts, saved locally
+* 🎭 **Mood Tracker** – Choose how you're feeling and track your emotional patterns
+* 💾 **Save & History** – Journal and mood data are stored locally for review
+* 📤 **Export & Share Journal** – Download your journal as a text file and share it easily
+* 🌀 **Smooth Animations** – Enjoy clean transitions and fade effects
 
-## 🚀 Tech Stack
+---
 
-- React
-- CSS (with responsive design)
-- LocalStorage
-- Open Quotable API
+## 🛠️ Tech Stack
 
-## 📦 Installation
+* **React** (with Vite)
+* **CSS Modules** for styling
+* **LocalStorage** for data persistence
+* **Framer Motion** for animations
+* **Quote API** (e.g. type.fit or zenquotes)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/SnigdhaSindhu/inspospace.git
 cd inspospace
+```
+
+### 2. Install Dependencies
+
+```bash
 npm install
+```
+
+### 3. Run Locally
+
+```bash
 npm run dev
->>>>>>> 0a9e64a7f80c26c39f3684234a48c3b1a91b48a8
+```
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## 🌐 Live Demo
+
+> 🔗 [Live Site Link](#) <!-- Update after deployment -->
+
+---
+
+## 📸 Preview
+
+![App Screenshot](screenshot.png) <!-- Add a real screenshot if available -->
+
+---
+
+## 🤝 Contributing
+
+Contributions and suggestions are welcome! Feel free to fork this repo and open a PR.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👩‍💻 Created By
+
+**Snigdha Sindhu**
+[GitHub: SnigdhaSindhu](https://github.com/SnigdhaSindhu)
+
+---
+
+> Stay inspired, track your journey, and reflect daily – with InspoSpace 🌱
+
