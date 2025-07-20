@@ -1,0 +1,78 @@
+:root {
+  --bg-light: #f5f5f5;
+  --bg-dark: #121212;
+  --text-light: #121212;
+  --text-dark: #f5f5f5;
+  --box-bg-light: white;
+  --box-bg-dark: #1f1f1f;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.app {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.box {
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  max-width: 500px;
+  width: 100%;
+  background-color: var(--box-bg-light);
+  animation: fadeIn 1s ease;
+}
+
+.box:hover {
+  transform: scale(1.02);
+}
+
+button {
+  padding: 8px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  resize: none;
+  margin-top: 10px;
+}
+
+.mood span {
+  font-size: 2rem;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.dark {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+.dark .box {
+  background-color: var(--box-bg-dark);
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(10px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+@media (max-width: 600px) {
+  .box {
+    margin: 0 10px;
+  }
+}
